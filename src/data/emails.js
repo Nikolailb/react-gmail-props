@@ -2,6 +2,7 @@ export default [
   {
     id: 1,
     sender: `Zoom`,
+    senderEmail: `noreply@zoom.us`,
     title: `Cloud Recording - Nicolas Marcora's Personal Meeting Room is now available`,
     body: `Dear Nicolas Marcora, Your Cloud Recording is now available. Please click the button below to view it. View Cloud Recording`,
     starred: false,
@@ -11,6 +12,7 @@ export default [
   {
     id: 2,
     sender: `Zoom`,
+    senderEmail: `noreply@zoom.us`,
     title: `Sean Davison has joined your Personal Meeting Room`,
     body: `Sean Davison has joined your Personal Meeting Room. You can start the meeting now. Start Meeting`,
     starred: false,
@@ -20,6 +22,7 @@ export default [
   {
     id: 3,
     sender: `Notion`,
+    senderEmail: `noreply@notion.so`,
     title: `1 update in Boolean`,
     body: `You have 1 update in Boolean. Click here to view it.`,
     starred: true,
@@ -29,6 +32,7 @@ export default [
   {
     id: 4,
     sender: `The Calendly Team`,
+    senderEmail: `support@calendly.com`,
     title: `Use more than one calendar?`,
     body: `Hey Nicolas, Do you use more than one calendar? If so, you can now connect multiple calendars to your Calendly account. This is a great way to keep all of your availability in one place. Connect your calendars now. Happy scheduling! The Calendly Team`,
     starred: false,
@@ -38,6 +42,7 @@ export default [
   {
     id: 5,
     sender: `Patrick`,
+    senderEmail: `patrick@example.com`,
     title: `Updated invitation: Coding chat with Nico`,
     body: `Patrick updated an invitation for the event "Coding chat with Nico".`,
     starred: true,

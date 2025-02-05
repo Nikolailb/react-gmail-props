@@ -19,7 +19,7 @@ function EmailDetails({ email, onBack }) {
         <div className="email-info">
           <div className="sender-info">
             <h2>{email.sender}</h2>
-            <em>&lt;no-reply@example.com&gt;</em>
+            <em>&lt;{email.senderEmail}&gt;</em>
           </div>
           <div className="user-info">
             <p>
