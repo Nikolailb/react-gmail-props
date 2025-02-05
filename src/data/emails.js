@@ -3,35 +3,40 @@ export default [
     id: 1,
     sender: `Zoom`,
     title: `Cloud Recording - Nicolas Marcora's Personal Meeting Room is now available`,
+    body: `Dear Nicolas Marcora, Your Cloud Recording is now available. Please click the button below to view it. View Cloud Recording`,
     starred: false,
-    read: true
+    read: true,
   },
   {
     id: 2,
     sender: `Zoom`,
     title: `Sean Davison has joined your Personal Meeting Room`,
+    body: `Sean Davison has joined your Personal Meeting Room. You can start the meeting now. Start Meeting`,
     starred: false,
-    read: false
+    read: false,
   },
   {
     id: 3,
     sender: `Notion`,
     title: `1 update in Boolean`,
+    body: `You have 1 update in Boolean. Click here to view it.`,
     starred: true,
-    read: true
+    read: true,
   },
   {
     id: 4,
     sender: `The Calendly Team`,
     title: `Use more than one calendar?`,
+    body: `Hey Nicolas, Do you use more than one calendar? If so, you can now connect multiple calendars to your Calendly account. This is a great way to keep all of your availability in one place. Connect your calendars now. Happy scheduling! The Calendly Team`,
     starred: false,
-    read: false
+    read: false,
   },
   {
     id: 5,
     sender: `Patrick`,
     title: `Updated invitation: Coding chat with Nico`,
+    body: `Patrick updated an invitation for the event "Coding chat with Nico".`,
     starred: true,
-    read: false
-  }
-]
+    read: false,
+  },
+];
