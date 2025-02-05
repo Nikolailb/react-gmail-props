@@ -1,0 +1,85 @@
+.email-content {
+  padding: 20px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.email-content .title {
+  margin-bottom: 20px;
+}
+
+.email-content--header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.email-content--header .avatar {
+  width: 50px;
+  height: 50px;
+  background-color: #ddd;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.email-content--header .email-info {
+  flex: 1;
+}
+
+.email-content--header .sender-info h2 {
+  margin: 0;
+}
+
+.email-content--header .sender-info em {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.email-content--header .user-info p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.email-content--header .date-info {
+  margin-right: 20px;
+}
+
+.email-content--header .email-action-icons ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+}
+
+.email-content--header .email-action-icons .icon {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.email-body .content {
+  margin-bottom: 20px;
+}
+
+.email-actions {
+  padding: 1rem 0.5rem;
+}
+
+.email-actions button {
+  padding: 0.5rem 1rem;
+  margin-right: 0.5rem;
+
+  border-radius: 0.5rem;
+  border: 1px solid #a1a1a1;
+  background-color: transparent;
+
+  font-weight: bold;
+}
+
+.seperator {
+  margin: 20px 0;
+  border-bottom: 1px solid #ddd;
+}
