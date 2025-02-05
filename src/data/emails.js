@@ -6,6 +6,7 @@ export default [
     body: `Dear Nicolas Marcora, Your Cloud Recording is now available. Please click the button below to view it. View Cloud Recording`,
     starred: false,
     read: true,
+    recieved: `2021-03-17T09:33:00`,
   },
   {
     id: 2,
@@ -14,6 +15,7 @@ export default [
     body: `Sean Davison has joined your Personal Meeting Room. You can start the meeting now. Start Meeting`,
     starred: false,
     read: false,
+    recieved: `2021-03-01T22:22:00`,
   },
   {
     id: 3,
@@ -22,6 +24,7 @@ export default [
     body: `You have 1 update in Boolean. Click here to view it.`,
     starred: true,
     read: true,
+    recieved: `2021-02-17T15:20:00`,
   },
   {
     id: 4,
@@ -30,6 +33,7 @@ export default [
     body: `Hey Nicolas, Do you use more than one calendar? If so, you can now connect multiple calendars to your Calendly account. This is a great way to keep all of your availability in one place. Connect your calendars now. Happy scheduling! The Calendly Team`,
     starred: false,
     read: false,
+    recieved: `2021-01-25T12:33:00`,
   },
   {
     id: 5,
@@ -38,5 +42,6 @@ export default [
     body: `Patrick updated an invitation for the event "Coding chat with Nico".`,
     starred: true,
     read: false,
+    recieved: `2021-01-17T09:33:00`,
   },
 ];

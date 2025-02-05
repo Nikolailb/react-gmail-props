@@ -3,6 +3,7 @@ import backArrow from "../assets/icons/back-arrow.png";
 import returnArrow from "../assets/icons/return-arrow.png";
 import rateStarButton from "../assets/icons/rate-star-button.png";
 import rubbishButton from "../assets/icons/rubbish-bin-delete-button.png";
+import { formatDate } from "../utils/misc";
 
 function EmailDetails({ email, onBack }) {
   return (
@@ -27,7 +28,7 @@ function EmailDetails({ email, onBack }) {
           </div>
         </div>
         <div className="date-info">
-          <p>17 March 2021, 09:33</p>
+          <p>{formatDate(email.recieved)}</p>
         </div>
         <div className="email-action-icons">
           <ul>
